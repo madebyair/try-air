@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Try Air - Try [Airos](https://made-by-air.com/airos) in your browser!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Try Air project aims to allow users to test the Airos system without the need for installation, by providing access to a test environment in their web browser. The idea behind this project is exceptionally innovative, as it enables potential users to experience the Airos interface and functionalities without switching between operating systems.
 
-Currently, two official plugins are available:
+Key features of the Try Air project include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Direct browser access:** Users can run Airos directly in their web browser, eliminating the need to install the system on their computer.
 
-## Expanding the ESLint configuration
+2. **Realistic testing environment:** The Try Air project provides users with an authentic experience of the Airos user interface and functionalities, faithfully replicated in the browser.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Quick access and convenient usage:** With Try Air, users can quickly and easily access the Airos system, allowing them to comfortably test various features and applications without the lengthy installation process.
 
-- Configure the top-level `parserOptions` property like this:
+4. **Secure and reliable environment:** The project ensures a secure and stable testing environment, enabling users to experiment with Airos without the risk of data loss or security issues.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Through the Try Air project, users can easily and safely test the Airos system in their web browser, which can be an excellent way to familiarize themselves with the new features and capabilities of this innovative operating system.
