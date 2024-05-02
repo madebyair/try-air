@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next"
+
 const WelcomeModal = () => {
+    const [ t ] = useTranslation()
+
     return (
         <div className="w-[800px] h-[500px] bg-black rounded-xl text-white">
-            Welcome!
+            {t("Welcome")}
         </div>
     )
 }
