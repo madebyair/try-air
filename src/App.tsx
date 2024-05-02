@@ -1,9 +1,10 @@
 import "./App.css"
+import Desktop from "./desktop/Desktop.tsx"
 
 function App() {
     return (
         <>
-            <div className="text-xl">Something will be here :)</div>
+            <Desktop />
         </>
     )
 }
